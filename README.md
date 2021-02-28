@@ -5,6 +5,8 @@ A blog template for the Cintsa CMS system
 
 ![Home page](https://github.com/MikeMather/cintsa-cms-blog-template/blob/master/screenshots/home-page.png)
 ![Post page](https://github.com/MikeMather/cintsa-cms-blog-template/blob/master/screenshots/blog-post.png)
+![Post content](https://github.com/MikeMather/cintsa-cms-blog-template/blob/master/screenshots/code-example.png)
+
 
 ## How to Use
 
