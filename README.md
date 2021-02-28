@@ -14,7 +14,7 @@ git clone git@github.com:MikeMather/cintsa-cms-blog-template.git
 npm install
 ```
 
-3. Install the Cintsa CLI and run:
+3. Install the [Cintsa CLI](https://github.com/MikeMather/cintsa-cms-cli) and run:
 ```
 $ cintsa create-site
 ```
