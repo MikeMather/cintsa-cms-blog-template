@@ -1,6 +1,11 @@
 # cintsa-cms-blog-template
 A blog template for the Cintsa CMS system
 
+## Screenshots
+
+![Home page](https://github.com/MikeMather/cintsa-cms-blog-template/blob/master/screenshots/home-page.png)
+![Post page](https://github.com/MikeMather/cintsa-cms-blog-template/blob/master/screenshots/blog-post.png)
+
 ## How to Use
 
 1. Clone the repo
