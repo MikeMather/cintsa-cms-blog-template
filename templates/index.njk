@@ -1,0 +1,19 @@
+{% import "./includes/postPreview.njk" as preview %}
+
+<html lang="en">
+  <head>
+    {% include "./includes/head.njk" %}
+  </head>
+  <body>
+    <div class="container">
+        {% include "./includes/hero.njk" %}
+      <main>
+        <section class="post-list">
+          {% for post in global.pieces.posts %}
+            {{ preview.postPreview(post) }}
+          {% endfor %}
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

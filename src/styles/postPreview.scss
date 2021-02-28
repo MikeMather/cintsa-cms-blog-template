@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+.post-preview {
+  background-color: white;
+  border: 1px solid #e6ebec;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.post-preview-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-preview-title {
+  font-size: 2.1em;
+  color: $heading-color;
+  line-height: 1.4;
+
+  &:hover {
+    color: $light-blue;
+  }
+}
+
+.post-preview-meta {
+  display: flex;
+  align-items: center;
+
+  small, a {
+    font-size: 12px;
+  }
+
+  small {
+    color: $light-grey;
+    margin-right: 15px;
+  }
+
+  a {
+    margin-right: 15px;
+  }
+}

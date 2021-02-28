@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    {% include "../includes/head.njk" %}
+  </head>
+  <body>
+    {% include "../includes/header.njk" %}
+    <main class="container">
+      <div class="post-title">
+        <h1> {{ title }} </h1>
+        <div class="post-meta">
+          {%set postTags = tags.split(',') %}
+          <div class="post-preview-meta">
+            <small>{{ date }}</small>
+            <small>|</small>
+            {% for t in postTags %}
+                <a href="">{{ t }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <article class="post">
+        <div class="post-content">
+          {{ content | safe}}
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

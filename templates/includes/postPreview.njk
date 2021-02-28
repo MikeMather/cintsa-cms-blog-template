@@ -1,0 +1,19 @@
+{% macro postPreview(post) %}
+    <article class="post-preview">
+        <div class="post-preview-header">
+            <a href="{{post.slug}}" class="post-preview-title">{{ post.title }}</a>
+            {%set tags = post.tags.split(',') %}
+            <div class="post-preview-meta">
+                <small>{{ post.date }}</small>
+                <small>|</small>
+                {% for t in tags %}
+                    <a href="">{{ t }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="post-preview-blurb">
+            {{ post.content | safe | truncate(400) }}
+        </div>
+        <a href="{{ post.slug }}">Read more</a>
+    </article>
+{% endmacro %}

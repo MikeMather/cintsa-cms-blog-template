@@ -1,0 +1,1 @@
+{"id":"0230676e-b8d4-4b62-8013-d2c77e308259","label":"Blog Posts","name":"posts","fields":[{"type":"date","name":"date","label":"Date"},{"type":"text","name":"tags","label":"Tags"},{"type":"markdown","name":"content","label":"Content"}]}

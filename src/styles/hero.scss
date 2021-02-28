@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+
+  .border {
+    border-top: 1px solid $blue;
+    width: 50%;
+    min-width: 300px;
+  }
+
+  p {
+    color: $dark-blue;
+  }
+}
+
+.blog-owner {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-top: 25px;
+
+  p, a {
+    margin: 0 1em;
+  }
+  
+}
