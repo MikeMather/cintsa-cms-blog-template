@@ -9,7 +9,7 @@
         {% include "./includes/hero.njk" %}
       <main>
         <section class="post-list">
-          {% for post in global.pieces.posts %}
+          {% for post in global.pieces.posts | sort(true, false, 'date') %}
             {{ preview.postPreview(post) }}
           {% endfor %}
         </section>
